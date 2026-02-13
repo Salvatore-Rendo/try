@@ -14,8 +14,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🐈‍⬛', '🐸']                       // Cute bear emojis
+        hearts: ['❤️', '💖', '🐈‍⬛', '🐸', '☾'],  // Heart emojis
+        bears: ['🐈‍⬛', '🐸', '🦉', '🐑']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "BUBINA! Sei attesa allora a casa mia",
-        message: "Ti aspetto per passare tempo di qualità assieme AL CALDO e ... a SCARTARE I REGALII",
+        message: "Ti aspetto per passare tempo di qualità assieme AL CALDO e ... a SCARTARE I REGALII (ad occhi chiusi ovviamente)",
         emojis: "🎁💖"  // These will bounce around
     },
 
