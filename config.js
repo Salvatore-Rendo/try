@@ -5,36 +5,36 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Asia",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Sito Cringino? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        bears: ['🐈‍⬛', '🐸']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Ciao Bubl, non avevo un cazzo da fare ed ho creato questo sito cringino al volo, per caso mi vuoi bene?",                                    // First interaction
+            yesBtn: "Si dai",                                             // Text for "Yes" button
+            noBtn: "Ew",                                               // Text for "No" button
+            secretAnswer: "Salvo, ma lo sai che ti amo di bene ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Ok, ma quanto mi ami di bene?",                          // For the love meter
+            startText: "Così!",                                   // Text before the percentage
+            nextBtn: "Vabbè basta dai ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
+            text: "Vuoi Passare questo San Valentino con me ?🌹", // The big question!
+            yesBtn: "Si!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
     },
@@ -42,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW mi ami così tanto di bene?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "DEAMNN! 🚀💝",              // Shows when they go past 1000%
+        normal: "Se mò così tanto! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "BUBINA! Sei attesa allora a casa mia",
+        message: "Ti aspetto per passare tempo di qualità assieme AL CALDO e ... a SCARTARE I REGALII",
+        emojis: "🎁💖"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -69,7 +69,7 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "0.3s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
@@ -78,9 +78,9 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+        musicUrl: "https://res.cloudinary.com/dpll43ski/video/upload/v1771020588/Verdena_-_Valvonauta_y8ugus.mp3", // Music streaming URL
+        startText: "🎵 MUSICAA",        // Button text to start music
+        stopText: "🔇 SILENZIOOO",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
